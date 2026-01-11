@@ -1,0 +1,25 @@
+title: "Kunjan Patel"
+description: "A minimal personal website and blog."
+# The base URL of your site (usually https://yourusername.github.io)
+url: "https://coolkp.github.io"
+
+# AUTOMATIC SETTINGS
+# This theme handles the layout and mobile responsiveness for you
+theme: minima
+
+# YOUR INFO (This appears in the footer and meta data)
+author:
+  name: "Your Name"
+  email: "youremail@example.com"
+
+# SOCIAL LINKS (Leave these blank if you don't use them)
+minima:
+  social_links:
+    twitter: your_twitter_handle
+    github:  your_github_handle
+    linkedin: your_linkedin_handle
+
+# PLUGINS (Makes your site load faster and easier for Google to find)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
