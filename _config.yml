@@ -1,25 +1,46 @@
 title: "Kunjan Patel"
-description: "A minimal personal website and blog."
-# The base URL of your site (usually https://yourusername.github.io)
+description: "ML Engineer at Google | Optimizing TPUs & Diffusion Models at Scale"
 url: "https://coolkp.github.io"
 
-# AUTOMATIC SETTINGS
-# This theme handles the layout and mobile responsiveness for you
-theme: minima
-
-# YOUR INFO (This appears in the footer and meta data)
+# Author info
 author:
-  name: "Your Name"
-  email: "youremail@example.com"
+  name: "Kunjan Patel"
+  email: ""
+  bio: "ML Engineer at Google Cloud, working on optimizing training and inference for Diffusion models at scale on XLA devices."
 
-# SOCIAL LINKS (Leave these blank if you don't use them)
-minima:
-  social_links:
-    twitter: your_twitter_handle
-    github:  your_github_handle
-    linkedin: your_linkedin_handle
+# Social links
+github_username: coolkp
+linkedin_username: kunjan24
 
-# PLUGINS (Makes your site load faster and easier for Google to find)
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
